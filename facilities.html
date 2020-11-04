@@ -1,0 +1,538 @@
+   <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Regal Hotels</title>
+
+    <!--- FAVICON --->
+    <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
+
+
+    <!--- CSS GENG --->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/hover.css">
+    <link rel="stylesheet" href="CSS/styles.css" type="text/css">
+    <link rel="stylesheet" href="CSS/queries.css">
+
+    <!---FontAwesome Links --->
+    <script src="https://kit.fontawesome.com/3e57810491.js" crossorigin="anonymous"></script>
+
+
+    <!--- BootStrap and Other Js Links --->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.2/TweenMax.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.2/TimelineMax.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+
+
+
+    <!--Font-->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Work+Sans:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <section id="others-head" class="overlay">
+
+        <div class="container-fluid">
+            <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+                <a class="nav-link" href="facilities.html">Facilities</a>
+                <a class="nav-link" href="rooms.html">Rooms</a>
+                <a class="nav-link" href="contacts.html">Contacts</a>
+            </div>
+
+            <span class="nav-span-open" style="font-size:35px;cursor:pointer" onclick="openNav()">&#9776;</span>
+            <!-- Nav Bar -->
+            <nav class="navbar navbar-expand-lg navbar-dark">
+
+                <a class="navbar-brand" href="index.html" data-aos="fade-right" data-aos-duration="500">
+                    <img class="logo" src="Images/logoo.svg" width="30" height="30" alt="" loading="lazy"> Regal Hotel
+                </a>
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent" data-aos="fade-left" data-aos-duration="700" data-aos-delay="200">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link hvr-overline-from-center" href="facilities.html">Facilities</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link hvr-overline-from-center" href="rooms.html">Rooms</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link hvr-overline-from-center contact-nav" href="contacts.html">Contacts</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+        </div>
+    </section>
+
+    <section id="facilities">
+        <h2 data-aos="fade-up" data-aos-duration="900" data-aos-delay="200">Hotel Facilities</h2>
+        <div id="carouselExampleIndicators" class="carousel slide slide-carou-1" data-ride="carousel" data-aos="zoom-in-up" data-aos-duration="900" data-aos-delay="500">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="row row-cols-1 row-cols-md-3">
+                        <div class="col mb-4 col-lg-6 col-md-6 pad-top-card">
+                            <div class="card h-100">
+                                <img src="Images/gym.jpg" class="card-img-top" alt="fount-view">
+                                <div class="card-body">
+                                    <h5 class="card-title">Gymnasium</h5>
+                                    <p class="card-text">We have the most equipped gym in Amsterdam with highly trained instructors always available</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col mb-4 col-lg-6 col-md-6 pad-top-card">
+                            <div class="card h-100">
+                                <img src="Images/spa.jpg" class="card-img-top" alt="fount-view">
+                                <div class="card-body">
+                                    <h5 class="card-title">Saloon & Spa</h5>
+                                    <p class="card-text">You’re welcome to experience relaxing massages and pampering sessions at our spa and we gurantee you a memorable escapade.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row row-cols-1 row-cols-md-3">
+                        <div class="col mb-4 col-lg-6 col-md-6 pad-top-card">
+                            <div class="card h-100">
+                                <img src="Images/gym.jpg" class="card-img-top" alt="fount-view">
+                                <div class="card-body">
+                                    <h5 class="card-title">Gymnasium</h5>
+                                    <p class="card-text">We have the most equipped gym in Amsterdam with highly trained instructors always available</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col mb-4 col-lg-6 col-md-6 pad-top-card">
+                            <div class="card h-100">
+                                <img src="Images/spa.jpg" class="card-img-top" alt="fount-view">
+                                <div class="card-body">
+                                    <h5 class="card-title">Saloon & Spa</h5>
+                                    <p class="card-text">You’re welcome to experience relaxing massages and pampering sessions at our spa and we gurantee you a memorable escapade.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row row-cols-1 row-cols-md-3">
+                        <div class="col mb-4 col-lg-6 col-md-6 pad-top-card">
+                            <div class="card h-100">
+                                <img src="Images/gym.jpg" class="card-img-top" alt="fount-view">
+                                <div class="card-body">
+                                    <h5 class="card-title">Gymnasium</h5>
+                                    <p class="card-text">We have the most equipped gym in Amsterdam with highly trained instructors always available</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col mb-4 col-lg-6 col-md-6 pad-top-card">
+                            <div class="card h-100">
+                                <img src="Images/spa.jpg" class="card-img-top" alt="fount-view">
+                                <div class="card-body">
+                                    <h5 class="card-title">Saloon & Spa</h5>
+                                    <p class="card-text">You’re welcome to experience relaxing massages and pampering sessions at our spa and we gurantee you a memorable escapade.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div class="row row-cols-1 row-cols-md-3">
+                        <div class="col mb-4 col-lg-6 col-md-6 pad-top-card">
+                            <div class="card h-100">
+                                <img src="Images/gym.jpg" class="card-img-top" alt="fount-view">
+                                <div class="card-body">
+                                    <h5 class="card-title">Gymnasium</h5>
+                                    <p class="card-text">We have the most equipped gym in Amsterdam with highly trained instructors always available</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col mb-4 col-lg-6 col-md-6 pad-top-card">
+                            <div class="card h-100">
+                                <img src="Images/spa.jpg" class="card-img-top" alt="fount-view">
+                                <div class="card-body">
+                                    <h5 class="card-title">Saloon & Spa</h5>
+                                    <p class="card-text">You’re welcome to experience relaxing massages and pampering sessions at our spa and we gurantee you a memorable escapade.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <div class="arrow-div">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </div>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <div class="arrow-div-2">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </div>
+            </a>
+        </div>
+
+        <div id="carouselExampleIndicator" class="carousel slide slide-carou-2" data-ride="carousel" data-aos="zoom-in-up" data-aos-duration="900" data-aos-delay="500">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicator" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicator" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicator" data-slide-to="2"></li>
+                <li data-target="#carouselExampleIndicator" data-slide-to="3"></li>
+                <li data-target="#carouselExampleIndicator" data-slide-to="4" class="active"></li>
+                <li data-target="#carouselExampleIndicator" data-slide-to="5"></li>
+                <li data-target="#carouselExampleIndicator" data-slide-to="6"></li>
+                <li data-target="#carouselExampleIndicator" data-slide-to="7"></li>
+            </ol>
+
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="row row-cols-1 row-cols-md-3">
+                        <div class="col mb-4 col-lg-6 col-md-6 pad-top-card">
+                            <div class="card h-100">
+                                <img src="Images/gym.jpg" class="card-img-top" alt="fount-view">
+                                <div class="card-body">
+                                    <h5 class="card-title">Gymnasium</h5>
+                                    <p class="card-text">We have the most equipped gym in Amsterdam with highly trained instructors always available</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div class="row row-cols-1 row-cols-md-3">
+                        <div class="col mb-4 col-lg-6 col-md-6 pad-top-card">
+                            <div class="card h-100">
+                                <img src="Images/spa.jpg" class="card-img-top" alt="fount-view">
+                                <div class="card-body">
+                                    <h5 class="card-title">Saloon & Spa</h5>
+                                    <p class="card-text">You’re welcome to experience relaxing massages and pampering sessions at our spa and we gurantee you a memorable escapade.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div class="row row-cols-1 row-cols-md-3">
+                        <div class="col mb-4 col-lg-6 col-md-6 pad-top-card">
+                            <div class="card h-100">
+                                <img src="Images/gym.jpg" class="card-img-top" alt="fount-view">
+                                <div class="card-body">
+                                    <h5 class="card-title">Gymnasium</h5>
+                                    <p class="card-text">We have the most equipped gym in Amsterdam with highly trained instructors always available</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div class="row row-cols-1 row-cols-md-3">
+                        <div class="col mb-4 col-lg-6 col-md-6 pad-top-card">
+                            <div class="card h-100">
+                                <img src="Images/spa.jpg" class="card-img-top" alt="fount-view">
+                                <div class="card-body">
+                                    <h5 class="card-title">Saloon & Spa</h5>
+                                    <p class="card-text">You’re welcome to experience relaxing massages and pampering sessions at our spa and we gurantee you a memorable escapade.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div class="row row-cols-1 row-cols-md-3">
+                        <div class="col mb-4 col-lg-6 col-md-6 pad-top-card">
+                            <div class="card h-100">
+                                <img src="Images/gym.jpg" class="card-img-top" alt="fount-view">
+                                <div class="card-body">
+                                    <h5 class="card-title">Gymnasium</h5>
+                                    <p class="card-text">We have the most equipped gym in Amsterdam with highly trained instructors always available</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div class="row row-cols-1 row-cols-md-3">
+                        <div class="col mb-4 col-lg-6 col-md-6 pad-top-card">
+                            <div class="card h-100">
+                                <img src="Images/spa.jpg" class="card-img-top" alt="fount-view">
+                                <div class="card-body">
+                                    <h5 class="card-title">Saloon & Spa</h5>
+                                    <p class="card-text">You’re welcome to experience relaxing massages and pampering sessions at our spa and we gurantee you a memorable escapade.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div class="row row-cols-1 row-cols-md-3">
+                        <div class="col mb-4 col-lg-6 col-md-6 pad-top-card">
+                            <div class="card h-100">
+                                <img src="Images/gym.jpg" class="card-img-top" alt="fount-view">
+                                <div class="card-body">
+                                    <h5 class="card-title">Gymnasium</h5>
+                                    <p class="card-text">We have the most equipped gym in Amsterdam with highly trained instructors always available</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div class="row row-cols-1 row-cols-md-3">
+                        <div class="col mb-4 col-lg-6 col-md-6 pad-top-card">
+                            <div class="card h-100">
+                                <img src="Images/gym.jpg" class="card-img-top" alt="fount-view">
+                                <div class="card-body">
+                                    <h5 class="card-title">Gymnasium</h5>
+                                    <p class="card-text">We have the most equipped gym in Amsterdam with highly trained instructors always available</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <a class="carousel-control-prev" href="#carouselExampleIndicator" role="button" data-slide="prev">
+                <div class="arrow-div mob-arrow-div">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </div>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicator" role="button" data-slide="next">
+                <div class="arrow-div-2 mob-arrow-div-2">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </div>
+            </a>
+        </div>
+
+        <div id="oh-div" data-aos="zoom-in-up" data-aos-duration="900" data-aos-delay="100">
+            <h3 class="oh-h3">Our Hotel Provide All The Service You Need</h3>
+            <div id="oh-ul">
+                <ul>
+                    <li><svg class="svg-dash-orange" width="80" height="4">
+                            <rect width="70" height="100" style="fill:#EF5F25;" />
+                            Sorry, your browser does not support inline SVG.
+                        </svg> Free high speed WIFI </li>
+
+                    <li><svg class="svg-dash-orange" width="80" height="4">
+                            <rect width="70" height="100" style="fill:#EF5F25;" />
+                            Sorry, your browser does not support inline SVG.
+                        </svg> Airport Luxury Pickcup (On Request)</li>
+
+                    <li><svg class="svg-dash-orange" width="80" height="4">
+                            <rect width="70" height="100" style="fill:#EF5F25;" />
+                            Sorry, your browser does not support inline SVG.
+                        </svg> Complimentary Exotic Breakfast</li>
+
+                    <li><svg class="svg-dash-orange" width="80" height="4">
+                            <rect width="70" height="100" style="fill:#EF5F25;" />
+                            Sorry, your browser does not support inline SVG.
+                        </svg> Concierge Services</li>
+
+                    <li><svg class="svg-dash-orange" width="80" height="4">
+                            <rect width="70" height="100" style="fill:#EF5F25;" />
+                            Sorry, your browser does not support inline SVG.
+                        </svg> Express Check-in/Check-out</li>
+
+                    <li><svg class="svg-dash-orange" width="80" height="4">
+                            <rect width="70" height="100" style="fill:#EF5F25;" />
+                            Sorry, your browser does not support inline SVG.
+                        </svg> On-Site Car Park</li>
+
+                    <li><svg class="svg-dash-orange" width="80" height="4">
+                            <rect width="70" height="100" style="fill:#EF5F25;" />
+                            Sorry, your browser does not support inline SVG.
+                        </svg> Facilities For The Disabled</li>
+                </ul>
+            </div>
+        </div>
+
+        <div id="oh-want-to" data-aos="zoom-in-up" data-aos-duration="900" data-aos-delay="100">
+            <h3 class="oh-h3">Want to make a custom reservation?</h3>
+            <button class="btn btn-block btn-outline-dark btn-lg rooms-btn" type="button">Contact Us</button>
+        </div>
+    </section>
+
+    <section id="app">
+        <div class="row">
+            <div class="col-lg-6 app-side col-md-6 col-sm-12" data-aos="fade-right" data-aos-duration="900" data-aos-delay="300">
+                <h3>Download our mobile app</h3>
+                <h4>Book rooms easily on your mobile phone</h4>
+                <img class="app-img" src="Images/app%20store%20button.svg" alt="">
+            </div>
+
+            <div class="col-lg-6 col-md-6 form-style-8 col-sm-12" id="sub-form" data-aos="fade-left" data-aos-duration="900" data-aos-delay="300">
+                <h3>Subscribe to our newsletter</h3>
+                <form>
+                    <input type="email" name="field2" placeholder="Enter your e-mail" />
+                    <div id="subbtn">
+                        <input class="btn btn-block btn-outline-dark btn-lg sub-btn" type="button" value="Sign Up" />
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <section id="footer">
+        <div class="row desktop">
+            <div class="col-lg-3 col-md-6" id="site-info" data-aos="fade-down" data-aos-duration="900">
+                <ul>
+                    <p class="footer-h4">Regal Hotel</p>
+                    <li><a href="#">Site Map</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Sustainability</a></li>
+                    <li><a href="#">Property Map</a></li>
+                    <li><a href="#">Document Library</a></li>
+                    <li><a href="#">Responsible Balling</a></li>
+                </ul>
+            </div>
+
+            <div class="col-lg-3 col-md-6" id="guest" data-aos="fade-up" data-aos-duration="900">
+                <ul>
+                    <p class="footer-h4">Guest Services</p>
+                    <li><a href="#">Premier</a></li>
+                    <li><a href="#">Your Reservation</a></li>
+                    <li><a href="#">Guest Receipt</a></li>
+                    <li><a href="#">Concierge Services</a></li>
+                    <li><a href="#">Gift Cards & Coupons</a></li>
+                    <li><a href="#">Guest Sign up</a></li>
+                </ul>
+            </div>
+
+            <div class="col-lg-3 col-md-6" id="more-info-footer" data-aos="fade-down" data-aos-duration="900">
+                <ul>
+                    <p class="footer-h4">Company Info</p>
+                    <li><a href="#">Terms & Conditions</a></li>
+                    <li><a href="#">Regal Magazine</a></li>
+                    <li><a href="#">Hotel Development</a></li>
+                    <li><a href="#">Residences</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                </ul>
+            </div>
+
+            <div class="col-lg-3 col-md-6" id="footer-icons" data-aos="fade-up" data-aos-duration="900">
+                <div class="footer-regal">
+                    <img class="regal-logo-footer" src="Images/regal%20logo%20footer.svg" alt="footer-logo">
+                </div>
+                <div class="footer-regal-2">
+                    <li><img class="fb-logo-footer" src="Images/facebook%20logo.svg" alt="facebook-icon"></li>
+                    <li><img class="twitter-logo-footer" src="Images/twitter%20logo.svg" alt="twitter-icon"></li>
+                    <li><img class="ig-logo-footer" src="Images/instagram%20logo.svg" alt="ig-icon"></li>
+                </div>
+            </div>
+        </div>
+
+        <div class="jdMobile" data-aos="fade-up" data-aos-duration="900">
+
+            <button class="jdAccordion">Regal Hotel</button>
+            <div class="jdPanel">
+
+                <li> <a class="jdLink" href="#">Site Map</a></li>
+                <li> <a class="jdLink" href="#">FAQ</a></li>
+                <li> <a class="jdLink" href="#">Sustainability</a></li>
+                <li> <a class="jdLink" href="#">Property Map</a></li>
+                <li><a class="jdLink" href="#">Document Library</a></li>
+                <li><a class="jdLink" href="#">Responsible Balling</a></li>
+
+            </div>
+            <hr>
+            <button class="jdAccordion">Guest Services</button>
+            <div class="jdPanel">
+                <div class="">
+
+                    <li><a class="jdLink" href="#">Premier</a></li>
+                    <li><a class="jdLink" href="#">Your Reservation</a></li>
+                    <li><a class="jdLink" href="#">Guest Receipt</a></li>
+                    <li><a class="jdLink" href="#">Concierge Services</a></li>
+                    <li><a class="jdLink" href="#">Gift Cards & Coupons</a></li>
+                    <li> <a class="jdLink" href="#">Guest Sign up</a></li>
+
+                </div>
+
+            </div>
+            <hr>
+            <button class="jdAccordion">Company Info</button>
+            <div class="jdPanel">
+
+                <li><a class="jdLink" href="#">Terms & Conditions</a></li>
+                <li> <a class="jdLink" href="#">Regal Magazine</a></li>
+                <li><a class="jdLink" href="#">Hotel Development</a><br></li>
+                <li><a class="jdLink" href="#">Residences</a><br></li>
+                <li><a class="jdLink" href="#">Privacy Policy</a><br></li>
+
+            </div>
+            <hr>
+
+            <div id="footer-icon2">
+                <div class="footer-regal">
+                    <img class="regal-logo-footer" src="Images/regal%20logo%20footer.svg" alt="footer-logo">
+                </div>
+                <div class="footer-regal-2">
+                    <li><img class="fb-logo-footer" src="Images/facebook%20logo.svg" alt="facebook-icon"></li>
+                    <li><img class="twitter-logo-footer" src="Images/twitter%20logo.svg" alt="twitter-icon"></li>
+                    <li><img class="ig-logo-footer" src="Images/instagram%20logo.svg" alt="ig-icon"></li>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="copy-r">
+        <div class="copyright">
+            <p>© COPYRIGHT REGAL HOTELS LLC 2020</p>
+        </div>
+
+        <div class="pj">
+            <button onclick="window.location.href='https://wa.me/2348122083472?text=';" type="button" class="copy-but">
+                <p>Designed by <s>You</s> PJ_C0der</p>
+            </button>
+        </div>
+    </section>
+
+    <script src="index.js" charset="utf-8"></script>
+    <script>
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "100%";
+        }
+
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+        }
+    </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+        AOS.init({
+
+            //once: true, // whether animation should happen only once - while scrolling down
+            anchorPlacement: 'top-bottom',
+        });
+    </script>
+</body></html>
+
