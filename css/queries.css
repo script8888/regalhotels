@@ -1,0 +1,847 @@
+/* ----------------------------------------- */
+/* QUERIES */
+/* ----------------------------------------- */
+
+@media (max-width: 1327px) {
+    #head {
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+
+    #our-rooms {
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+
+    #glance {
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+
+    #about {
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+
+    .about-p {
+        padding-top: 100px;
+        padding-bottom: 80px;
+        padding-left: 30px;
+    }
+
+    #mission {
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+
+    #app {
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+
+    #footer {
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+
+    .br {
+        display: none;
+    }
+
+    br#br-must {
+        display: block;
+    }
+}
+
+@media (max-width: 1200px) {
+        #facilities {
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+    #contacts-section {
+        padding-left: 100px;
+        padding-right: 100px;
+        padding-bottom: 100px;
+    }
+
+    #our-rooms {
+        padding-left: 90px;
+        padding-right: 90px;
+    }
+
+    #about {
+        padding-left: 90px;
+        padding-right: 90px;
+    }
+
+    .about-p {
+        padding-top: 70px;
+        padding-bottom: 80px;
+        padding-left: 30px;
+    }
+
+    #mission {
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+
+    #app {
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+
+    #footer {
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+}
+
+@media (max-width: 1080px) {
+    
+        #facilities {
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+    #contacts-section {
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+
+    #head {
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+
+    #our-rooms {
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+
+    #about {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .about-p {
+        padding-top: 60px;
+        padding-bottom: 80px;
+        padding-left: 30px;
+    }
+
+    #mission {
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+
+    #app {
+        padding-left: 70px;
+        padding-right: 70px;
+    }
+
+    #footer {
+        padding-left: 70px;
+        padding-right: 70px;
+    }
+
+    #hotel-rs {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    #oh-ul ul li {
+        width: 68%;
+    }
+
+    .carousel-item {
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+
+    .arrow-div {
+        margin-right: 50px;
+    }
+
+    .arrow-div-2 {
+        margin-left: 50px;
+    }
+}
+
+@media (max-width: 991px) {
+    
+
+    
+    .nav-span-open {
+        display: block;
+    }
+
+    #contacts-section {
+        padding-left: 200px;
+        padding-right: 200px;
+    }
+
+    #contacts-section div.row div.form-dark {
+        margin-top: 60px;
+    }
+
+    #contacts-section h2 {
+        padding-bottom: 30px
+    }
+
+    #our-rooms {
+        padding-left: 150px;
+        padding-right: 150px;
+    }
+
+    #about {
+        padding-left: 50px;
+        padding-right: 30px;
+    }
+
+    .query-caused-padding {
+        padding-top: 40px;
+    }
+
+    .about-p {
+        padding-top: 0;
+        padding-bottom: 0px;
+        padding-left: 30px;
+    }
+
+    .app-img {
+        width: 40%;
+    }
+
+    .play-push {
+        cursor: pointer;
+        padding-top: 30%;
+    }
+
+    .mission-div-2 {
+        width: 60%;
+    }
+
+    #footer-icons {
+        text-align: left;
+    }
+
+    .col-md-12.query-caused-padding {
+        max-width: 50%;
+        margin: 0 auto;
+    }
+
+    #oh-ul ul li {
+        width: 75%;
+    }
+
+    .carousel-item {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .arrow-div {
+        margin-right: 100px;
+    }
+
+    .arrow-div-2 {
+        margin-left: 100px;
+    }
+}
+
+@media (max-width: 871px) {
+    #contacts-section {
+        padding-left: 150px;
+        padding-right: 150px;
+    }
+
+    #our-rooms {
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+
+    #about {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .about-p {
+        padding-top: 0;
+        padding-bottom: 0;
+        padding-left: 0;
+        width: 100%;
+    }
+
+    .app-img {
+        width: 50%;
+    }
+
+    .play-push {
+        padding-top: 40%;
+    }
+
+    .mission-div-2 {
+        width: 65%;
+    }
+
+    #oh-ul ul li {
+        width: 100%;
+    }
+
+    .carousel-item {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .arrow-div {
+        margin-right: 130px;
+    }
+
+    .arrow-div-2 {
+        margin-left: 130px;
+    }
+}
+
+@media (max-width: 813px) {
+
+    #about {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .about-p {
+        font-size: 105%;
+        width: 102%;
+    }
+
+    .app-img {
+        width: 60%;
+    }
+
+    .play-push {
+        padding-top: 45%;
+    }
+
+    .mission-div-2 {
+        width: 70%;
+    }
+}
+
+@media (max-width: 786px) {
+    #contacts-section {
+        padding-left: 120px;
+        padding-right: 120px;
+    }
+
+    #our-rooms {
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+
+}
+
+@media (max-width: 767px) {
+    #head {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    #our-rooms {
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+
+    .no-padding-for-cards {
+        max-width: 50%;
+        margin: 0 auto;
+    }
+
+    #about {
+        padding-left: 70px;
+        padding-right: 70px;
+    }
+
+    .about-p {
+        padding-top: 35px;
+        width: 100%;
+    }
+
+    .about-us-img {
+        width: 100%;
+        height: 50vh;
+    }
+
+    .app-img {
+        width: 40%;
+    }
+
+    .glance-img-div {
+        height: 60vh;
+    }
+
+    .play-push {
+        padding-top: 30%;
+    }
+
+    #glance,
+    #sub-form {
+        padding-top: 50px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .mission-div-2 {
+        width: 90%;
+    }
+
+    .desktop {
+        display: none;
+    }
+
+    .jdMobile {
+        display: block;
+    }
+
+    #footer-icon2 {
+        padding-top: 20px;
+        text-align: center;
+    }
+
+    .regal-logo-footer {
+        width: 15%
+    }
+
+    #footer {
+        padding-top: 30px;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .pad-top-card {
+        padding-top: 30px;
+        padding-left: 150px;
+        padding-right: 150px;
+    }
+
+    .slide-carou-2 {
+        display: block;
+    }
+
+    .slide-carou-1 {
+        display: none;
+    }
+
+    .mob-arrow-div {
+        margin-left: 150px;
+    }
+
+    .mob-arrow-div-2 {
+        margin-right: 150px;
+    }
+}
+
+@media (max-width: 700px) {
+    
+    #contacts-section {
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+
+    #facilities {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+@media (max-width: 650px) {#head {
+    padding-bottom: 350px;
+}
+    .contacts-icons {
+        width: 90%;
+    }
+
+    .pad-top-card {
+        padding-left: 110px;
+        padding-right: 110px;
+    }
+}
+
+@media (max-width: 606px) {
+    h1 {
+        font-size: 2.5rem;
+        line-height: 50px;
+    }
+
+    c #our-rooms {
+        padding-left: 35px;
+        padding-right: 35px;
+    }
+
+    .no-padding-for-cards {
+        max-width: 60%;
+        padding-top: 20px;
+    }
+
+    .query-caused-padding {
+        padding-top: 20px;
+    }
+
+    .col-md-12.query-caused-padding {
+        max-width: 60%;
+        margin: 0 auto;
+    }
+
+    #about {
+        padding-left: 35px;
+        padding-right: 35px;
+    }
+
+    .play-push {
+        padding-top: 50%;
+    }
+
+    #glance {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    #mission {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .mission-div-2 {
+        width: 100%;
+    }
+
+    #app {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    #footer {
+        padding-left: 35px;
+        padding-right: 35px;
+    }
+
+    .svg-dash-orange {
+        width: 60px;
+    }
+}
+
+@media (max-width: 577px) {
+
+    .sidenav .closebtn {
+        right: 20px;
+    }
+
+    #contacts-section {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .slide-carou-2 {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    #oh-ul {
+        font-size: 23px;
+    }
+
+    .mob-arrow-div {
+        margin-left: 130px;
+    }
+
+    .mob-arrow-div-2 {
+        margin-right: 130px;
+    }
+
+    #copy-r {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    #head {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .no-padding-for-cards {
+        max-width: 70%;
+    }
+
+    .about-us-img {
+        height: 35vh;
+    }
+
+    .col-md-12.query-caused-padding {
+        max-width: 70%;
+    }
+
+    .play-push {
+        padding-top: 30%;
+    }
+
+    .pad-top-card {
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+}
+
+@media (max-width: 545px) {
+p.about-p, .mission-div-1 {
+    text-align: center;
+}
+    .phone-tr a,
+    .mail-tr a,
+    .locate-td-2 {
+        padding-left: 30px;
+    }
+
+    .svg-dash-orange {
+        width: 40px;
+    }
+
+    .slide-carou-2 {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    #oh-ul {
+        font-size: 21px;
+    }
+}
+
+@media (max-width: 474px) {
+    .form-dark {
+        padding-top: 40px;
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-bottom: 40px
+    }
+
+    .contacts-icons {
+        width: 110%;
+    }
+
+    #contacts-section {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    #oh-ul ul {
+        padding-left: 20px;
+    }
+
+    .svg-dash-orange {
+        width: 30px;
+    }
+
+    .slide-carou-2 {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    #oh-ul {
+        font-size: 20px;
+    }
+
+    #about,
+    #our-rooms,
+    #app,
+    #mission,
+    #footer,
+    #glance,
+    #sub-form {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .glance-img-div {
+        height: 40vh;
+    }
+
+
+    .no-padding-for-cards,
+    .col-md-12.query-caused-padding {
+        max-width: 79%;
+    }
+
+    .pad-top-card {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+}
+
+@media (max-width: 426px) {
+    .form-dark {
+        padding-left: 20px;
+        padding-right: 20px;
+        background: rgba(24, 25, 32, 0.81);
+    }
+
+    #contacts-section {
+        padding-bottom: 0;
+    }
+
+    #contacts-section {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .contacts-icons {
+        width: 120%;
+    }
+
+    .phone-tr a,
+    .mail-tr a,
+    .locate-td-2 {
+        padding-left: 20px;
+    }
+
+    #oh-ul ul {
+        padding-left: 10px;
+    }
+
+    .svg-dash-orange {
+        width: 27px;
+    }
+
+    .slide-carou-2 {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    #oh-ul {
+        font-size: 19.5px;
+    }
+}
+
+@media (max-width: 400px) {
+    #contacts-section {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .contacts-icons {
+        width: 150%;
+    }
+
+    .phone-tr a,
+    .mail-tr a,
+    .locate-td-2 {
+        padding-left: 20px;
+    }
+
+    .mob-arrow-div {
+        margin-left: 105px;
+    }
+
+    .mob-arrow-div-2 {
+        margin-right: 105px;
+    }
+
+    #oh-ul ul {
+        padding-left: 1px;
+    }
+
+    .arrow-div {
+        padding-left: 5px;
+        padding-right: 9px;
+        padding-top: 7px;
+    }
+
+    .arrow-div-2 {
+        padding-left: 9px;
+        padding-right: 5px;
+        padding-top: 7px;
+    }
+
+    .svg-dash-orange {
+        width: 20px;
+    }
+
+    .pad-top-card {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .glance-img-div {
+        height: 35vh;
+    }
+
+    .no-padding-for-cards,
+    .col-md-12.query-caused-padding {
+        max-width: 90%;
+    }
+}
+
+@media (max-width: 368px) {
+    .contacts-icons {
+        width: 170%;
+    }
+
+    .phone-tr a,
+    .mail-tr a,
+    .locate-td-2 {
+        padding-left: 12px;
+    }
+}
+
+@media (max-width: 360px) {
+
+    .phone-tr a,
+    .mail-tr a,
+    .locate-td-2,
+    .cont-h5 {
+        font-size: 0.89em;
+    }
+
+    .pad-top-card {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .arrow-div {
+        padding-left: 3px;
+        padding-right: 3px;
+        padding-bottom: 3px;
+    }
+
+    .arrow-div-2 {
+        padding-left: 3px;
+        padding-right: 3px;
+        padding-bottom: 3px;
+    }
+
+    #oh-ul ul {
+        padding-left: 0.5px;
+    }
+
+    #oh-ul {
+        font-size: 18px;
+    }
+
+    .glance-img-div {
+        height: 35vh;
+    }
+
+    .no-padding-for-cards,
+    .col-md-12.query-caused-padding {
+        max-width: 90%;
+    }
+}
+
+@media (max-width: 321px) {
+    .contacts-icons {
+        width: 500%;
+    }
+
+    .phone-tr a,
+    .mail-tr a,
+    .locate-td-2,
+    .cont-h5 {
+        font-size: 0.89em;
+    }
+}
