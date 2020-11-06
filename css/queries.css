@@ -169,11 +169,43 @@
 }
 
 @media (max-width: 991px) {
+    .div-mob {
+        background-color: #2F303A;
+        padding: 10px 30px;
+    }
 
-
-
-    .nav-span-open {
+    .toggle-nav {
         display: block;
+    }
+
+    nav ul {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        background-color: #1c1d23;
+        width: 100%;
+        display: none;
+    }
+
+    .nav-link {
+        margin-right: 0;
+    }
+
+    .navbar {
+        padding: 0 0;
+    }
+
+    nav ul li {
+        padding-top: 15px;
+        text-align: center;
+
+    }
+    
+    nav ul li:last-child {
+        padding-bottom: 10px;
+    }
+
+    .active {
+        display: block !important;
     }
 
     #contacts-section {
@@ -341,6 +373,7 @@
 }
 
 @media (max-width: 767px) {
+
     #head {
         padding-left: 30px;
         padding-right: 30px;
@@ -629,8 +662,8 @@
 }
 
 @media (max-width: 474px) {
-    
-     /* width */
+
+    /* width */
     ::-webkit-scrollbar {
         width: 16px;
     }
@@ -639,6 +672,7 @@
     ::-webkit-scrollbar-track {
         box-shadow: inset 0 0 5px rgba(65, 67, 81, 0);
     }
+
     .form-dark {
         padding-top: 40px;
         padding-left: 40px;

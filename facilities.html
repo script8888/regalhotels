@@ -36,41 +36,36 @@
 </head>
 
 <body>
-    <section id="others-head" class="overlay">
+
+    <section id="head" class="overlay">
 
         <div class="container-fluid">
-            <div id="mySidenav" class="sidenav">
-                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
 
-                <a class="nav-link" href="facilities.html">Facilities</a>
-                <a class="nav-link" href="rooms.html">Rooms</a>
-                <a class="nav-link" href="contacts.html">Contacts</a>
-            </div>
-
-            <span class="nav-span-open" style="font-size:35px;cursor:pointer" onclick="openNav()">&#9776;</span>
             <!-- Nav Bar -->
             <nav class="navbar navbar-expand-lg navbar-dark">
+                <div class="div-mob">
+                    <a class="navbar-brand" href="index.html">
+                        <img class="logo" src="Images/logoo.svg" width="30" height="30" alt="" loading="lazy"> Regal Hotel
+                    </a>
 
-                <a class="navbar-brand" href="index.html" data-aos="fade-right" data-aos-duration="500">
-                    <img class="logo" src="Images/logoo.svg" width="30" height="30" alt="" loading="lazy"> Regal Hotel
-                </a>
-
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent" data-aos="fade-left" data-aos-duration="700" data-aos-delay="200">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item">
-                            <a class="nav-link hvr-overline-from-center" href="facilities.html">Facilities</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link hvr-overline-from-center" href="rooms.html">Rooms</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link hvr-overline-from-center contact-nav" href="contacts.html">Contacts</a>
-                        </li>
-                    </ul>
+                    <div class="toggle-nav">
+                        <i class="fas fa-bars mob-nav-btn"></i>
+                    </div>
                 </div>
+                <ul class="navbar-na ml-auto" data-aos="fade-left" data-aos-duration="700" data-aos-delay="200">
+                    <li class="nav-item">
+                        <a class="nav-link hvr-overline-from-center" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link hvr-overline-from-center" href="facilities.html">Facilities</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link hvr-overline-from-center" href="rooms.html">Rooms</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link hvr-overline-from-center contact-nav" href="contacts.html">Contacts</a>
+                    </li>
+                </ul>
             </nav>
 
         </div>
@@ -515,15 +510,19 @@
 
     <script src="index.js" charset="utf-8"></script>
     <script>
-        function openNav() {
-            document.getElementById("mySidenav").style.width = "100%";
-        }
+        window.addEventListener("scroll", function() {
+            var nav = document.querySelector("nav");
+            nav.classList.toggle("sticky", window.scrollY > 0);
+        })
 
-        function closeNav() {
-            document.getElementById("mySidenav").style.width = "0";
-        }
+        $(document).ready(function() {
+            $('.fa-bars').click(function() {
+                $('nav ul').toggleClass('active');
+            })
+        })
     </script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
     <script>
         AOS.init();
         AOS.init({
