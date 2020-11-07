@@ -225,7 +225,6 @@ nav ul li a:hover {
 @keyframes slide {
     to {
         top: 0px;
-        bottom: 0px;
     }
 }
 
