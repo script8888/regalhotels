@@ -28,6 +28,12 @@ body {
     font-family: 'Poppins', sans-serif;
     background: #2F303A;
     overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    overflow: hidden;
 }
 
 h1 {
@@ -87,6 +93,7 @@ h2:after {
 
 #others-head {
     padding-top: 20px;
+    padding-bottom: 50px
 }
 
 .welcome-head {
@@ -168,7 +175,7 @@ nav {
 
 nav.sticky {
     background: #292a32;
-    box-shadow: 0 6px 9px -1px rgba(0,0,0,0.25);
+    box-shadow: 0 6px 9px -1px rgba(0, 0, 0, 0.25);
 }
 
 .navbar-dark .navbar-nav .nav-link {
@@ -203,6 +210,7 @@ nav ul li a:hover {
     padding-right: 50px;
     padding-top: 20px;
 }
+
 /* ----------------------------------------- */
 /* MOBILE NAV */
 /* ----------------------------------------- */
@@ -214,6 +222,25 @@ nav ul li a:hover {
     display: none;
 }
 
+@keyframes slide {
+    to {
+        top: 0px;
+        bottom: 0px;
+    }
+}
+
+.card-fly {
+    display: flex;
+    flex-direction: column;
+    transition: 0.2s;
+    box-shadow: 0 12px 32px 4px rgba(0, 0, 0, 0);
+    transition: box-shadow 0.2s ease-in-out;
+}
+
+.card-fly:hover {
+    transform: translateY(-20px) !important;
+    box-shadow: 0 12px 32px 4px rgba(0, 0, 0, 0.23);
+}
 
 /* ----------------------------------------- */
 /* OUR ROOMS */
@@ -237,7 +264,6 @@ nav ul li a:hover {
 
 .card {
     background: rgba(24, 25, 32, 0.81);
-    box-shadow: 0 15px 14px 0 rgba(0, 0, 0, 0.23);
     border: 0 solid rgba(0, 0, 0, 0);
     border-radius: 0;
 }
